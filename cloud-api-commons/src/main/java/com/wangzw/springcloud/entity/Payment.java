@@ -8,12 +8,12 @@ import java.io.Serializable;
 
 /**
  * @author wangzw
- * @date 2020/4/26 16:40
+ * @date 2020/4/30 17:07
  */
 @Data
 @AllArgsConstructor
 @NoArgsConstructor
-public class Payment implements Serializable{
+public class Payment implements Serializable {
     private String id;
     private String serial;
 }
