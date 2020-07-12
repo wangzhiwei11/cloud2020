@@ -1,5 +1,6 @@
 package com.wangzw.springcloud.controller;
 
+import com.netflix.discovery.DiscoveryClient;
 import com.wangzw.springcloud.entity.Payment;
 import com.wangzw.springcloud.service.PaymentService;
 import com.wangzw.springcloud.vo.CommonVO;
@@ -20,6 +21,9 @@ public class PaymentController {
 
     @Resource
     private PaymentService paymentService;
+
+    @Resource
+    private DiscoveryClient discoveryClient;
 
     @Value("${server.port}")
     private String serverPort;
@@ -45,5 +49,10 @@ public class PaymentController {
         }else{
             return new CommonVO(true,"查询失败",null);
         }
+    }
+
+    @GetMapping(value = "/payment/discovery")
+    public Object discovery(){
+        return discoveryClient;
     }
 }
