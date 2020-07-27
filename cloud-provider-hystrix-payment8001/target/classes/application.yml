@@ -1,6 +1,10 @@
 server:
   port: 8001
 
+spring:
+  application:
+    name: cloud-payment-service
+
 eureka:
   client:
     #表示本服务需要注册到EurekaServer
@@ -10,3 +14,6 @@ eureka:
     service-url:
       #defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+      instance:
+        instance-id: paymentHystrix8001
+        prefer-ip-address: true

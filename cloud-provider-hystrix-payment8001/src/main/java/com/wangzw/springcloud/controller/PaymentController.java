@@ -1,9 +1,11 @@
 package com.wangzw.springcloud.controller;
 
+import com.wangzw.springcloud.service.PaymentService;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RestController;
 
+import javax.annotation.Resource;
 import java.util.concurrent.TimeUnit;
 
 /**
@@ -13,19 +15,22 @@ import java.util.concurrent.TimeUnit;
 @RestController
 public class PaymentController {
 
+    @Resource
+    private PaymentService paymentService;
+
     @GetMapping("/payment/hystrix/ok/{id}")
     public String paymentInfo_ok(@PathVariable String id){
-        return "线程："+Thread.currentThread().getName()+",paymentInfo_ok,id:"+id;
+        return paymentService.paymentInfo_ok(id);
     }
 
     @GetMapping("/payment/hystrix/timeout/{id}")
     public String paymentInfo_timeout(@PathVariable String id){
-        try {
-            TimeUnit.SECONDS.sleep(3);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        return "线程："+Thread.currentThread().getName()+",paymentInfo_timeout,id:"+id;
+        return paymentService.paymentInfo_timeout(id);
     }
 
+    //===服务熔断
+    @GetMapping("/payment/paymentCircuitBreaker/{id}")
+    public String paymentCircuitBreaker(@PathVariable String id){
+        return paymentService.paymentCircuitBreaker(id);
+    }
 }

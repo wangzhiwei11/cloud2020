@@ -1,4 +1,4 @@
-package com.wangzw.springcloud.Service;
+package com.wangzw.springcloud.service;
 
 import com.wangzw.springcloud.entity.Payment;
 import com.wangzw.springcloud.vo.CommonVO;

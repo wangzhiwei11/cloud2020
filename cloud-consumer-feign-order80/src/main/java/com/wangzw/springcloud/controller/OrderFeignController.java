@@ -1,6 +1,6 @@
 package com.wangzw.springcloud.controller;
 
-import com.wangzw.springcloud.Service.PaymentFeignService;
+import com.wangzw.springcloud.service.PaymentFeignService;
 import com.wangzw.springcloud.entity.Payment;
 import com.wangzw.springcloud.vo.CommonVO;
 import org.springframework.web.bind.annotation.GetMapping;
