@@ -18,7 +18,6 @@
         <module name="cloud-consumer-feign-order80" />
         <module name="cloud-provider-hystrix-payment8001" />
         <module name="cloud-api-commons" />
-        <module name="cloud-config-center3344" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
