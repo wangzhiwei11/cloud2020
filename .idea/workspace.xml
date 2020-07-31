@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e70f35-a991-4a65-b7f5-84951d0f46bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/java/com/wangzw/springcloud/ConfigCenterMain3344.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/wangzw/springcloud/ConfigClientMain3355.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/wangzw/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -37,6 +39,19 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="E:\workspace\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
   <component name="ProjectId" id="1fOoiyCmmy1z0RLGPxZRQoNOqWg" />
   <component name="ProjectLevelVcsManager">
     <ConfirmationsSetting value="2" id="Add" />
@@ -49,10 +64,11 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-center3344" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -76,7 +92,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.EurekaMain7001">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center3344" />
       <extension name="coverage">
@@ -86,6 +102,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzw.springcloud.ConfigCenterMain3344" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3355" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3355" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangzw.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzw.springcloud.ConfigClientMain3355" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -134,9 +163,11 @@
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
       <item itemvalue="Spring Boot.PaymentMain8001" />
+      <item itemvalue="Spring Boot.ConfigClientMain3355" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.ConfigClientMain3355" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
@@ -151,7 +182,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@45e7032a" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7bda3ef9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -170,6 +201,9 @@
       <option name="presentableId" value="Default" />
       <updated>1596098631861</updated>
       <workItem from="1596098636647" duration="2258000" />
+      <workItem from="1596158301946" duration="521000" />
+      <workItem from="1596158939428" duration="1587000" />
+      <workItem from="1596166731787" duration="4951000" />
     </task>
     <servers />
   </component>
