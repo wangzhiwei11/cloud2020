@@ -12,8 +12,25 @@ spring:
           password: wangzhiwei3013
           default-label: master #配置文件分支
           search-paths: springcloud-config  #配置文件所在根目录
+  #rabbitmq相关配置
+  rabbitmq:
+    host: localhost
+    port: 5672
+    username: guest
+    password: guest
+
 eureka:
   client:
     service-url:
       #defaultZone: http://localhost:7001/eureka
       defaultZone: http://eureka7001.com:7001/eureka,http://eureka7002.com:7002/eureka
+
+#rabbitmq相关配置，暴漏bus刷新配置的端点
+#通过http://localhost:3344/actuator/bus-refresh post请求，通知其他客户端刷新
+#通过http://localhost:3344/actuator/bus-refresh/config-client:3355 post请求，顶点通知某个客户端
+management:
+  endpoints:
+    web:
+      exposure:
+        include: 'bus-refresh'
+

@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="20e70f35-a991-4a65-b7f5-84951d0f46bf" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/wangzw/springcloud/ConfigClientMain3355.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/java/com/wangzw/springcloud/controller/ConfigClientController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/wangzw/springcloud/ConfigClientMain3366.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/java/com/wangzw/springcloud/controller/ConfigClientController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-center3344/target/classes/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" beforeDir="false" afterPath="$PROJECT_DIR$/cloud-config-client3355/target/classes/bootstrap.yml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -64,13 +69,16 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client3355/src/main/resources/bootstrap.yml" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/cloud-config-client3366/src/main/resources/application.yml" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.26206896" />
     <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.wangzw.springcloud.controller" />
+    </key>
     <key name="CopyFile.RECENT_KEYS">
       <recent name="E:\workspace\cloud2020\cloud-config-center3344" />
     </key>
@@ -92,7 +100,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.ConfigClientMain3355">
+  <component name="RunManager" selected="Spring Boot.ConfigClientMain3366">
     <configuration name="ConfigCenterMain3344" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="cloud-config-center3344" />
       <extension name="coverage">
@@ -115,6 +123,19 @@
         </pattern>
       </extension>
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzw.springcloud.ConfigClientMain3355" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ConfigClientMain3366" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="cloud-config-client3366" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.wangzw.springcloud.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzw.springcloud.ConfigClientMain3366" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -145,33 +166,20 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PaymentMain8001" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
-      <module name="cloud-provider-payment8001" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.wangzw.springcloud.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.wangzw.springcloud.PaymentMain8001" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <list>
       <item itemvalue="Spring Boot.EurekaMain7001" />
       <item itemvalue="Spring Boot.EurekaMain7002" />
       <item itemvalue="Spring Boot.ConfigCenterMain3344" />
-      <item itemvalue="Spring Boot.PaymentMain8001" />
       <item itemvalue="Spring Boot.ConfigClientMain3355" />
+      <item itemvalue="Spring Boot.ConfigClientMain3366" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.ConfigClientMain3355" />
+        <item itemvalue="Spring Boot.ConfigClientMain3366" />
         <item itemvalue="Spring Boot.ConfigCenterMain3344" />
         <item itemvalue="Spring Boot.EurekaMain7002" />
         <item itemvalue="Spring Boot.EurekaMain7001" />
-        <item itemvalue="Spring Boot.PaymentMain8001" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +190,7 @@
           <expand>
             <path>
               <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
-              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7bda3ef9" type="7427dc5b:ServiceModel$ServiceGroupNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceGroupNode@7da52971" type="7427dc5b:ServiceModel$ServiceGroupNode" />
             </path>
           </expand>
           <select />
@@ -203,7 +211,9 @@
       <workItem from="1596098636647" duration="2258000" />
       <workItem from="1596158301946" duration="521000" />
       <workItem from="1596158939428" duration="1587000" />
-      <workItem from="1596166731787" duration="4951000" />
+      <workItem from="1596166731787" duration="6275000" />
+      <workItem from="1596184640622" duration="2159000" />
+      <workItem from="1596188045851" duration="63000" />
     </task>
     <servers />
   </component>
