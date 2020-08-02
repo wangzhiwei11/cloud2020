@@ -51,6 +51,11 @@ public class PaymentController {
         }
     }
 
+    @GetMapping("payment/zipkin")
+    public String paymentZipkin(){
+        return "zipkin";
+    }
+
 //    @GetMapping(value = "payment/discovery")
 //    public Object discovery(){
 //        return discoveryClient;

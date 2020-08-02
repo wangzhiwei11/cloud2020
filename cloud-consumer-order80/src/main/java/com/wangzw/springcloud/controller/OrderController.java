@@ -34,4 +34,9 @@ public class OrderController {
     public CommonVO<Payment> getPayment(@PathVariable String id){
         return restTemplate.getForObject(PAYMENT_URL+"/payment/get/"+id,CommonVO.class);
     }
+
+    @GetMapping("comsumer/payment/zipkin")
+    public String paymentZipkin(){
+        return restTemplate.getForObject(PAYMENT_URL+"/payment/zipkin/",String.class);
+    }
 }
